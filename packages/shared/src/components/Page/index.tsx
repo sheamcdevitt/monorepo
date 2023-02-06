@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Container } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import { colors, theme } from '../../themes/theme';
@@ -29,5 +29,3 @@ export const Page: React.FC<PageProps> = (props) => {
     </Container>
   );
 };
-
-//TODO: *MVP* make responsive
